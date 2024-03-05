@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import styles from './Link.module.css';
 
 const Link = ({ link }) => {
@@ -6,6 +7,10 @@ const Link = ({ link }) => {
             <a href={link.url}>{link.name}</a>
         </li>
     )
+}
+
+Link.propTypes = {
+    link: PropTypes.object
 }
 
 export default Link;
