@@ -41,5 +41,22 @@ html {
 body {
   min-height: 100svh;
   background-color: var(--clr-neutral-1100);
+  display: grid;
+  place-items: center;
 }
 
+img,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+ul, 
+ol {
+  list-style-type: none;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
