@@ -1,10 +1,11 @@
+import imgUrl from './assets/avatar-jessica.jpeg';
 import Card from './components/Card';
 
 function App() {
   const data = {
     info: {
       picture: {
-        url: './src/assets/avatar-jessica.jpeg',
+        url: imgUrl,
         alt: 'A profile picture'
       },
       name: 'Jessica Randall',
